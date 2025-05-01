@@ -7,6 +7,25 @@
                   color: white;
             background-image: url(contact.jpg);
         background-size: cover;}
+                 #login{background-color: rgba(255, 255, 255, 0.8);
+        padding: 20px;
+    border-radius: 10px;
+color: #000;
+max-width: 300px;
+width: 100%;}
+input[type="text"], input[type="password"], input[type="submit"]{
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+input[type="submit"]{
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
         </style>
     </head> 
     <body>
@@ -34,12 +53,13 @@
         <li>الخط الساخن للدعم النفسي </li>
         <li> العيادات النفسية الجامعية أو المجانية </li>
     </ul>
-    <h4>
+    <h4> <div id="login">
     إذا كنت ترغب في التحدث معنا يمكنك تسجيل الدخول من هنا: <br><br>
+            <form>
     <input type="text" name="username" placeholder="اسم المستخدم" required><br><br>
     <input type="password" name="password" placeholder="كلمة المرور" required><br><br>
     <input type="submit" value="تسجيل الدخول">
-    </h4>
+    </h4></form></div>
 </p>
         
     </body>
